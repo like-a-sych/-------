@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icons.eot?2nmclq");
+  src: url("../fonts/icons.eot?2nmclq#iefix") format("embedded-opentype"),
+    url("../fonts/icons.ttf?2nmclq") format("truetype"), url("../fonts/icons.woff?2nmclq") format("woff"),
+    url("../fonts/icons.svg?2nmclq#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-svg-add:before {
+  content: "\e900";
+}
+._icon-svg-calendar:before {
+  content: "\e901";
+}
+._icon-svg-calendar2:before {
+  content: "\e902";
+}
+._icon-svg-car:before {
+  content: "\e903";
+}
+._icon-svg-check:before {
+  content: "\e904";
+}
+._icon-svg-check2:before {
+  content: "\e905";
+}
+._icon-svg-clock:before {
+  content: "\e906";
+}
+._icon-svg-close:before {
+  content: "\e907";
+}
+._icon-svg-deliver:before {
+  content: "\e908";
+}
+._icon-svg-fan:before {
+  content: "\e909";
+}
+._icon-svg-fat:before {
+  content: "\e90a";
+}
+._icon-svg-geo:before {
+  content: "\e90b";
+}
+._icon-svg-icon1:before {
+  content: "\e90c";
+}
+._icon-svg-icon2:before {
+  content: "\e90d";
+}
+._icon-svg-icon3:before {
+  content: "\e90e";
+}
+._icon-svg-icon4:before {
+  content: "\e90f";
+}
+._icon-svg-icon5:before {
+  content: "\e910";
+}
+._icon-svg-icon6:before {
+  content: "\e911";
+}
+._icon-svg-icon7:before {
+  content: "\e912";
+}
+._icon-svg-icon8:before {
+  content: "\e913";
+}
+._icon-svg-icon9:before {
+  content: "\e914";
+}
+._icon-svg-info:before {
+  content: "\e915";
+}
+._icon-svg-info2:before {
+  content: "\e916";
+}
+._icon-svg-load::after {
+  content: "\e917";
+  font-family: "icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+._icon-svg-mail:before {
+  content: "\e918";
+}
+._icon-svg-manager:before {
+  content: "\e919";
+}
+._icon-svg-menu:before {
+  content: "\e91a";
+}
+._icon-svg-phone:before {
+  content: "\e91b";
+}
+._icon-svg-pipe:before {
+  content: "\e91c";
+}
+._icon-svg-profit:before {
+  content: "\e91d";
+}
+._icon-svg-tender:before {
+  content: "\e91e";
+}
+._icon-svg-wrench:before {
+  content: "\e91f";
+}

@@ -1,0 +1,72 @@
+<section class="section-1">
+  <div class="section-1__container">
+    <div class="section-1__title-block">
+      <div class="section-1__main-title">
+        <h1 class="section-1__title">
+          Производство
+          воздуховодов
+        </h1>
+        <h2 class="section-1__subtitle">
+          для вентиляции любых
+          размеров <nobr>и назначения</nobr>
+        </h2>
+      </div>
+      <ul class="section-1__excellence excellence-list">
+        <div class="excellence-list__bordered">
+          <li class="excellence-list__item _icon-svg-fan">
+            Весь ассортимент<br>
+            для систем вентиляции
+          </li>
+          <li class="excellence-list__item _icon-svg-calendar2">
+            Срок производства<br>
+            от 1 дня
+          </li>
+          <li class="excellence-list__item _icon-svg-car">
+            Доставка по всей РФ и<br>
+            отгрузка без выходных
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="section-1__form form-main">
+      <div class="form-main__inner">
+        <div class="form-main__main-block">
+          <h2 class="form-main__title">
+            Заполните форму ниже, чтобы получить
+            <nobr><img src="@img/pdf.png" width="35px" alt="">
+              PDF-каталог</nobr> изделий <b>«Росвент»
+              <nobr>+ консультацию</nobr> менеджера
+            </b>
+          </h2>
+          <div class="form-main__pic">
+            <img src="@img/header/catalog.png" alt="">
+          </div>
+        </div>
+        <div class="form-main__form">
+          @@include('../_parts/_form__mailer.html', {
+          "from":"Получить PDF-каталог изделий + консультацию",
+          "button":"Получить PDF-каталог изделий<br> + консультацию",
+          "check":"check1",
+          })
+        </div>
+
+      </div>
+      <div class="form-main__contacts contact-form">
+        <div class="contact-form__title">
+          Контакты компании:
+        </div>
+        <div class="contact-form__props">
+          <div class="contact-form__link">
+            <a href="tel:88462110071" class="callback__number _icon-svg-phone">8 846 211-00-71</a>
+          </div>
+          <div class="contact-form__link">
+            <a href="mailto:zakaz@rosvent.ru"
+              class="contacts-block__item contacts-block__item_button contacts-block__item_lower _icon-svg-mail">
+              zakaz@rosvent.ru
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
